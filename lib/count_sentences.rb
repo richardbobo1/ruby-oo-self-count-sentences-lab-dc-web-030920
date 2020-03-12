@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/\?|\.|\!!/).size
+    self.split(/\?|\.|\!!/).size   ### did I do this one right? 
+    #based on review of strings provided, we also need to split at sentences that end with double !! or ... 
   end
 end
